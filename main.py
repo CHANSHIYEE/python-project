@@ -35,3 +35,5 @@ c = wordcloud.WordCloud(font_path="C:/Users/shiye/Desktop/simhei.ttf", width=800
                         max_font_size=300, max_words=100)
 c.generate(" ".join(jieba.lcut(words_1)))
 c.to_file("C:/Users/shiye/Desktop/python/pywordcloud.png")
+
+
